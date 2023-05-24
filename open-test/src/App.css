@@ -1,0 +1,20 @@
+.App {
+  display: flex;
+  justify-content: center;
+}
+.app-content {
+  display: flex; 
+  flex-direction: column;
+  width: 50vw
+}
+
+table.tab, td, th {
+  border: 1px solid rgb(6, 89, 71);
+  text-align: center;
+  border-radius: 5px;
+}
+
+td, th {
+  height: 30px;
+  cursor: pointer;
+}
